@@ -1,0 +1,65 @@
+.about_me{
+    font-style: var(--title-color-dark);
+}
+
+
+.about .container {
+    background-color: var(--surface-color);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+.about-img{
+    scale: 1.15;
+    transform:translateZ(50px);
+}
+
+.btn {
+    font-size: small;
+}
+
+.desc-section{
+    margin-bottom: 15px;
+}
+.skill{
+    margin-top: 25px;
+}
+
+
+.about-info{
+    color: var(--title-color);
+}
+
+.skill_title{
+    color: var(--title-color-dark);
+    margin-top: 12px;
+    margin-left: 5px;
+    text-align: start;
+}
+
+
+.icon{
+    font-size: 70px;
+}
+
+.card{
+    transition: .8s;
+}
+
+.button-1{
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.card_body:hover{
+    transform: translateY(-18px);
+    border:3.5px solid var(--title-color-dark);
+    transition: .8s;
+}

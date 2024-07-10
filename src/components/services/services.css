@@ -1,0 +1,87 @@
+
+.section_title{
+    font-size: 33px;
+}
+
+.section_subtitle{
+    font-size: 18px;
+    text-align: center;
+}
+
+.service_icon{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.service_card_title{
+    margin-bottom: 3rem;
+}
+
+.service_card{
+    margin-left: 35px;
+    padding: 80px 0px;
+}
+
+.card_service{
+  cursor:pointer;
+}
+
+.service_card-link{
+    color: black;
+    font-weight: var(--font-medium);
+    
+}
+
+/* modal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .services{
+    margin-top: -55px;
+    margin-bottom: 20px;
+  }
+  
+  .modal-title{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .modal-body{
+
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .modal-description{
+    text-align: center;
+  }

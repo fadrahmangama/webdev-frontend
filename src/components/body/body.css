@@ -1,0 +1,134 @@
+
+  .body_content{
+    grid-template-columns: 116px repeat(2,1fr);
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+    margin-left: -160px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+  }
+
+  .body_self{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: .5rem;
+    margin-left: 100px;
+  }
+
+  .body_img {
+    background: url(../../img/OmanGanteng2.jpg);
+    background-repeat:repeat;
+    background-position: center;
+    background-size:cover;
+    box-shadow: inset 0 0 0 3px rgba(255,255,255,0.5);
+    order: 1;
+    justify-self: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 140px;
+    border-radius: 50px;
+    transition: 2s;
+  }
+  .body_img:hover {
+    transform: scale(1.17);
+    border-radius: 80px 80px 80px 80px;
+    transition: 1s;
+  }
+
+  .typed{
+    border-right: 5px solid;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 5s steps(15) infinite alternate, cursor 0.8s  step-end infinite alternate;
+  }
+
+  @keyframes cursor {
+    50% { border-color: transparent }
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+  }
+
+  .button {
+    padding: 18px;
+    font-size: 15px;
+  }
+
+  .body_self-icon {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    transition: .3s;
+  }
+  .body_self-icon:hover {
+    color: var(--title-color-dark);
+  }
+
+  @media screen and (max-width: 992px) {
+    .body_content{
+      grid-template-columns: 100px repeat(2,1fr);
+      column-gap: 1.25rem;
+    }
+
+    .body_subtitle{
+      /* padding-left: 3.75rem; */
+      margin-bottom: var(--mb-1);
+    }
+
+    .body_subtitle::before{
+      width: 42px;
+      top: 0.8rem;
+    }
+
+    .body_description{
+      max-width: initial;
+      margin-bottom: var(--mb-2-5);
+    }
+
+    .body_img{
+      width: 250px;
+      height: 250px;
+      box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
+    }
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .body_content{
+      grid-template-columns: 0.5fr 3fr;
+      padding-top: 3.5rem;
+      margin-left: 5px;
+      align-items: center;
+    }
+
+    .body_img{
+      order: initial;
+      justify-self: initial;
+    }
+
+    .body_data{
+      grid-column: 1/3;
+    }
+
+    .body_img{
+      box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+      width: 200px;
+      height: 200px;
+      margin: 0 0 0 -30px;
+    }
+
+    .body_self{
+      margin-left: -4px;
+    }
+  }
+  
+  @media screen and (max-width: 350px) {
+    .body_img{
+      width: 180px;
+      height: 180px;
+    }
+
+
+  }

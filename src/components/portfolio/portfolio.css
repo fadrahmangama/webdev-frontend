@@ -1,0 +1,58 @@
+/* portfolio.css */
+.portfolio {
+  padding: 100px 0;
+}
+
+.section_title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.section_subtitle {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  color: #6c757d;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-portfolio{
+  margin-top: 5px;
+  transition: .8s;
+  min-height: 425px;
+  margin-bottom: 100px;
+}
+.card-portfolio:hover{
+  scale: 1.05;
+  transition: .5s;
+  border-bottom:5px solid rgba(0, 0, 0, 0.318);
+}
+
+.card-img-top {
+  max-height: 190px;
+  object-fit: cover;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.category-btn {
+  padding: 2px 33px;
+  border: none;
+  background-color: var(--body-color);
+  cursor: pointer;
+}
+
+.category-btn.active {
+  background-color: var(--title-color);
+  color: #fff;
+  border-radius: 30px;
+}
+
